@@ -40,24 +40,36 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     /*height: 100%;*/
-    padding-top: 100px;
+    padding-top: 0px;
     text-align: center;
-    background: #eee;
+    /*background: #eee;*/
+    background: #00072d;
     padding-bottom: 100px;
 }
 
 .services-section {
     /*height: 100%;*/
-    padding-top: 100px;
+    padding-top: 0px;
     text-align: center;
     /*background: #fff;*/
     background: #60e1e0;
     padding-bottom: 100px;
 }
 
+.services-ajudar {
+    /*height: 100%;*/
+    padding-top: 0px;
+    text-align: center;
+    /*background: #fff;*/
+    /*background: #60e1e0;*/
+    background: #eee;
+    padding-bottom: 100px;
+}
+
 .contact-section {
     height: 100%;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+    padding-top: 0px;
     text-align: center;
-    background: #eee;
+    background: #00072d;
 }
