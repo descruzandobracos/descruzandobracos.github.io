@@ -34,8 +34,8 @@ p {
 h2 {
   /*font-family: 'Cutive Mono','Inconsolata', sans-serif ;*/
   font-family: 'Dosis', sans-serif;
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 28px;
   /*color: #00072d;*/
   color: #ffffff;
   /*border-bottom: 1px solid;*/
@@ -126,8 +126,34 @@ canvas[resize] {
   margin-top: 25px;
 }
 
-h1.jumbodavi, p.jumbodavi {
+/*h1.jumbodavi, p.jumbodavi {*/
+  /*color: #FFFFFF;*/
+/*}*/
+
+.jumbodavi {
   color: #FFFFFF;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+p.jumbodb {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+a.jumbodb {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.highlight {
+  color: #60e1e0;
+}
+.highlight2 {
+  color: #eee;
 }
 
 .navbar-brand-custom {
