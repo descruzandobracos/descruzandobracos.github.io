@@ -7,7 +7,7 @@ h1 {
   /*font-family: 'Cutive Mono','Inconsolata', sans-serif ;*/
   font-family: 'Source Sans Pro', serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 34px;
   color: #ffffff;
   /*color: #00072d;*/
   /*border-bottom: 1px solid;*/
@@ -35,7 +35,7 @@ h2 {
   /*font-family: 'Cutive Mono','Inconsolata', sans-serif ;*/
   font-family: 'Dosis', sans-serif;
   font-weight: 300;
-  font-size: 38px;
+  font-size: 25px;
   /*color: #00072d;*/
   color: #ffffff;
   /*border-bottom: 1px solid;*/
@@ -47,7 +47,7 @@ h3 {
   /*font-family: 'Cutive Mono','Inconsolata', sans-serif ;*/
   font-family: 'Dosis', sans-serif;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 20px;
   color: #000000;
   /*border-bottom: 1px solid;*/
   margin-bottom: 5px;
@@ -114,19 +114,13 @@ canvas[resize] {
     height: 100%;
 }
 
-@media screen and (max-width: 1199px) and (min-width:992px){
-  .davi-col {
-    padding-left: 40px;
-  }
-  
-}
-
-
 
 .jumbotron {
 /*background-image: url("../images/SiteFrontPage3.png");*/
-background-image: url("../images/mobileFront.png");
-background-size: cover;}
+  /*background-image: url("../images/mobileFront.png");*/
+  background-image: url("../images/mobileFront2.png");
+  background-size: cover;
+}
 
 .jumboimage {
   margin-top: 25px;
@@ -145,3 +139,19 @@ hr.hrwhite {
   border-color: #ffffff;
 }
 
+@media screen and (max-width: 1199px) and (min-width:992px){
+  .davi-col {
+    padding-left: 40px;
+  }
+  
+}
+
+@media screen and (max-width: 5199px) and (min-width:500px){
+
+  .jumbotron {
+    background-image: url("../images/SiteFrontPage3.png");
+    /*background-image: url("../images/mobileFront.png");*/
+    background-size: cover;
+    }
+  
+}
