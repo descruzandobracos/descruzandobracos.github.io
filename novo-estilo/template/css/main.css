@@ -323,7 +323,8 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/about-bg.jpg);
+  /*background-image: url(../images/about-bg.jpg);*/
+  background-image: url(../images/about.jpg);
   padding: 60px 0;
 }
 
@@ -981,4 +982,20 @@ ul.address {
 
 /*Presets*/
 
+span.reverse {
+    unicode-bidi: bidi-override;
+      direction: rtl;
+}
+
+.frontimage {
+  background-image: url(../images/SiteFrontPage.png);
+}
+
+@media screen and (max-width: 580px) and (min-width:1px){
+
+  .frontimage {
+    background-image: url(../images/mobileFront.png);
+  }
+  
+}
 
