@@ -89,6 +89,7 @@ h1.davi-sidebar {
 
 .navbar-default .navbar-nav>li>a {
     color: #2c56a6;
+    /*color: #2c56a6;*/
     font-weight: 700;
 }
 .nav > li > a:hover, .nav > li > a:focus, .nav > li.active {
