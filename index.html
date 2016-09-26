@@ -1,235 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Descruzando os Braços</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <title>Davi Sales Barreira - Personal Website</title>
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
 
-    <!--[> Bootstrap Core CSS <]-->
-    <!--<link href="css/bootstrap.css" rel="stylesheet">-->
+<body>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
 
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <!--<link href="css/heroic-features.css" rel="stylesheet">-->
-
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Source+Serif+Pro:600" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-              <a class="navbar-brand navbar-brand-custom page-scroll" href="#page-top"><img src="images/logo-navbar-color.png" alt="logo"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Quem Somos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Como ajudar</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-      <div class="jumbotron">
-        <div class="container">
-          <!--<div class="col-md-1">-->
-            
-          <!--</div>-->
-          <div class="col-md-3 jumboimage">
-            <img src="images/logo-jumbotron.png"> 
-          </div>
-          <div class="col-md-8">
-            <h1 class="davi jumbodavi text-left">Bem-vindo!</h1>
-            <p class="jumbodavi text-justify text-left">Estamos em manutenção. Em breve o site estará pronto.</p>
-            <!--<p class="jumbodavi"><a class="btn btn-default btn-lg page-scroll<" href="#about" role="button">Conheça mais &raquo;</a></p>-->
-            <p class="jumbodavi text-left">
-                <a class="btn btn-default page-scroll" href="#about">Conheça mais &raquo;</a>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </p>
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <!--<div class="item active frontimage" style="background-image: url(images/SiteFrontPage.png)">-->
+        <div class="item active frontimage">
+          <div class="caption">
+              <img src="images/logo-jumbotron.png">
+            <h1 class="animated fadeInLeftBig">Bem-<span>Vindo</span></h1>
+            <!--<p class="animated fadeInRightBig">-->
+             <!--Nós somos o projeto Descruzando os Braços,-->
+              <!--desenvolvemos ações sociais para crianças e adolescentes – com a ajuda de associados,-->
+              <!--voluntários e parceiros – sem qualquer fim lucrativo, político ou de favorecimento pessoal.-->
+            <!--</p>-->
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Conheça mais</a>
           </div>
         </div>
       </div>
-    </section>
-    <!--<section id="intro" class="intro-section">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12">-->
-                    <!--<h1>Scrolling Nav</h1>-->
-                    <!--<p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>-->
-                    <!--<a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
 
-    <!--[> About Section <]-->
-    <!--<section id="about" class="about-section">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-              <!--<div class="col-lg-4">-->
-              <!--</div>-->
-              <!--<div class="col-lg-4">-->
-                <!--<img src="images/quemSomos.png"> -->
-              <!--</div>-->
-              
-            <!--</div>-->
-            <!--<div class="row">-->
-              <!--<div class="col-lg-2">-->
-              <!--</div>-->
-                <!--<div class="col-lg-8">-->
-                    <!--<h1>Quem Somos</h1>-->
-                    <!--<p class="text-center">O projeto Descruzando os Braços iniciou em 2015-->
-                    <!--com amigos interessados em desenvolver a fé cristã e a solidariedade.-->
-                    <!--Hoje desenvolvemos ações sociais para crianças e adolescentes – com-->
-                    <!--a ajuda de associados, voluntários e parceiros – sem qualquer fim-->
-                    <!--lucrativo, político ou de favorecimento pessoal.-->
-                    <!--Todos temos dificuldades em nossas vidas, mas estamos descruzando-->
-                    <!--os braços e fazendo a nossa parte por uma sociedade com menos-->
-                    <!--desigualdade e mais responsabilidade social.-->
-                    <!--</p>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<hr class='hrwhite'>-->
-            
-            <!--<div class="row">-->
-              <!--<div class="col-md-6">-->
-                <!--<h1>Missão</h1>-->
-                <!--<p>Contribuir com a transformação da sociedade, por meio do-->
-                  <!--desenvolvimento educacional, cultural e espiritual de crianças e-->
-                  <!--adolescentes.</p>-->
-              <!--</div> -->
-              <!--<div class="col-md-6">-->
-                <!--<h1>Visão</h1>-->
-                <!--<p>Ser canal de solidariedade, buscando a redução da desigualdade social-->
-                  <!--para o desenvolvimento de uma sociedade melhor.</p>-->
-              <!--</div> -->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<h1>Valores</h1>-->
-                <!--<p>Amor, Fé, Caridade, Responsabilidade Social, Ética e Transparência.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
+      <!--<a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>-->
 
-    <!--[> Services Section <]-->
-    <!--<section id="services" class="services-section">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-5">-->
-                  <!--<br>-->
-                  <!--<br>-->
-                    <!--<h1 class="text-left">Como Ajudar</h1>-->
-                    <!--<h3 class="text-left">São várias formas de ajudar. Só não vale ficar de braços cruzados!-->
-                    <!--</h3>-->
-                    <!--<h3 class="text-left">-->
-                      <!--Você pode ser um <strong>associado</strong>, um <strong>voluntário</strong> ou um <strong>parceiro</strong>.-->
-                    <!--</h3>-->
-                    <!--<p><img src="images/anjinhos2.png"></p>-->
-                <!--</div>-->
-                <!--<div class="col-md-7">-->
-                  <!--<h2>Associado</h2> -->
-                  <!--<p>Você participa de visitas, eventos e atividades administrativas da-->
-                    <!--associação. Você pode ser um associado doador ou um associado mensalista. Um associado-->
-                    <!--doador faz doações pontuais ou para eventos. Um associado mensalista deve pagar a-->
-                    <!--mensalidade da associação.-->
-                  <!--</p>-->
-                  <!--<hr>-->
-                  <!--<h2>Voluntário</h2> -->
-                  <!--<p>-->
-                    <!--Você participa de visitas e eventos. Você pode ser um voluntário doador-->
-                    <!--ou um voluntário mensalista. Um voluntário doador faz doações pontuais ou para eventos. Um-->
-                    <!--voluntário mensalista deve pagar a mensalidade da associação.-->
-                  <!--</p>-->
-                  <!--<hr>-->
-                  <!--<h2>Parceiro</h2> -->
-                  <!--<p>-->
-                    <!--Você ou sua empresa contribuem com serviços profissionais, podendo ainda-->
-                    <!--ser um parceiro doador ou um parceiro mensalista. Um parceiro doador, além de contribuir-->
-                    <!--com serviços profissionais, faz doações pontuais ou para eventos. Um parceiro mensalista, além-->
-                    <!--de contribuir com serviços profissionais, deve pagar a mensalidade da associação. Em-->
-                    <!--contrapartida, os parceiros poderão ser divulgados nos canais de comunicação da associação. -->
-                  <!--</p>-->
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo-navbar.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Quem Somos</a></li> 
+            <li class="scroll"><a href="#about-us">Como Ajudar</a></li>                     
+            <li class="scroll"><a href="#portfolio">O Que Fazemos</a></li>
+            <li class="scroll"><a href="#contact">Contato</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <br>
+            <br>
+            <h2>Quem Somos</h2>
+              <p class="text-justify">
+              O projeto Descruzando os Braços iniciou em 2015 com amigos interessados em desenvolver a solidariedade e a fé cristã.
+              Hoje desenvolvemos ações sociais para crianças e adolescentes – com a ajuda de associados, voluntários e 
+              parceiros – sem qualquer fim lucrativo, político ou de favorecimento pessoal.
+              </p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-flag"></i>
+            </div>
+            <div class="service-info">
+              <h3>Missão</h3>
+                    <p class="text-justify">
+                  Contribuir com a transformação da sociedade, por meio do
+                  desenvolvimento educacional, cultural e espiritual de crianças e
+                  adolescentes.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fa fa-binoculars"></i>
+            </div>
+            <div class="service-info">
+              <h3>Visão</h3>
+                  <p class="text-justify">
+                  Ser canal de solidariedade, buscando a redução da desigualdade social
+                  para o desenvolvimento de uma sociedade melhor.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-heart"></i>
+            </div>
+            <div class="service-info">
+              <h3>Valores</h3>
+                  <p class="text-justify">
+                  Amor, Fé, Caridade, Responsabilidade Social, Ética e Transparência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <br>
+            <h2>Como Ajudar</h2>
+            <p class="text-justify">
+              São várias formas de ajudar. Só não vale ficar de braços cruzados!
+              Você pode ser um <strong>associado</strong>, um <strong>voluntário</strong> ou um <strong>parceiro</strong>.
+            </p>
+            <p class="text-justify">
+              Para saber mais, basta clicar numa das opções abaixo.
+            </p>
+          </div>
+        </div>
+                    <br>
+                    <br>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <a style="display: block; width: 100%;" class="btndb btn btn-default pull-left" data-toggle="collapse"
+                      data-target="#associado">Associado</a>
+                    <div id="associado" class="collapse">
+                      <p class="sec2 text-justify">
+                      Você participa de visitas, eventos e atividades administrativas da
+                      associação. Você pode ser um associado doador ou um associado mensalista. Um associado
+                      doador faz doações pontuais ou para eventos. Um associado mensalista deve pagar a
+                      mensalidade da associação.
+                      </p>
+                    </div>
+                    <br>
+                    <br>
+                    <a style="display: block; width: 100%;" class="btn btndb btn-default pull-left" data-toggle="collapse"
+                      data-target="#voluntario">Voluntário</a>
+                    <div id="voluntario" class="collapse">
+                      <p class="sec2 text-justify">
+                      Você participa de visitas e eventos. Você pode ser um voluntário doador
+                      ou um voluntário mensalista. Um voluntário doador faz doações pontuais ou para eventos. Um
+                      voluntário mensalista deve pagar a mensalidade da associação.
+                      </p>
+                    </div>
+                    <br>
+                    <br>
 
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
+                    <a style="display: block; width: 100%;" class="btn btndb btn-default pull-left" data-toggle="collapse"
+                      data-target="#parceiro">Parceiro</a>
+                    <div id="parceiro" class="collapse">
+                      <p class="sec2 text-justify">
+                      Você ou sua empresa contribuem com serviços profissionais, podendo ainda
+                      ser um parceiro doador ou um parceiro mensalista. Um parceiro doador, além de contribuir
+                      com serviços profissionais, faz doações pontuais ou para eventos. Um parceiro mensalista, além
+                      de contribuir com serviços profissionais, deve pagar a mensalidade da associação. Em
+                      contrapartida, os parceiros poderão ser divulgados nos canais de comunicação da associação. 
+                      </p>
+                    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
 
-    <!--[> Contact Section <]-->
-    <!--<section id="contact" class="contact-section">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12">-->
-                    <!--<h1>Contato</h1>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>O Que Fazemos</h2>
+          <p>Nós fazemos visitas semanais e eventos, realizando doações, atividades educativas,
+          escolares e recreativas.</p>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        
+        <div class="col-sm-10">
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/visitas.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3><strong>Visitas</strong></h3>
+                      <p>
+                        Semanalmente visitamos as crianças e os jovens em acompanhamento, realizando atividades
+                        educativas, escolares e recreativas, buscando estimular a criatividade, cognição e desenvolver o
+                        raciocínio lógico, transmitindo sempre nossos valores. 
+                      </p>
+                    </div>
+                    <!--<div class="folio-overview">-->
+                      <!--<span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>-->
+                      <!--<span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>-->
+                    <!--</div>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/eventos.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3><strong>Eventos</strong></h3>
+                      <p>
+                        Buscando proporcionar momentos de alegria e diversão, promovemos eventos
+                        como forma de nos confraternizar e arrecadar doações para os que mais precisam.   
+                      </p>
+                    </div>
+                    <!--<div class="folio-overview">-->
+                      <!--<span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>-->
+                      <!--<span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>-->
+                    <!--</div>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/oracao.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3><strong>Momentos de Oração</strong></h3>
+                      <p>
+                        Buscando desenvolver nossa fé cristã realizamos mensalmente encontros para
+                        rezar um terço e em seguida temos formação religiosa com o teólogo responsável.
+                      </p>
+                    </div>
+                    <!--<div class="folio-overview">-->
+                      <!--<span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>-->
+                      <!--<span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>-->
+                    <!--</div>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contato</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/descruzandobracos@gmail.com">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Nome" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Assunto" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escreva sua mensagem" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Enviar</button>
+                </div>
+              </form>   
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p></p>
+                <ul class="address">
+                  <!--<li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>-->
+                  <li><i class="fa fa-phone"></i> <span> Telefone:</span> <span class="reverse"> 2220-01899 58 55+</span></li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:
+                      <span class="reverse"> moc.liamg@socarbodnazurcsed</span>
+                    </span></li>
+                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.descruzandobracos.github.io</a></li>
+                </ul>
+              </div>                            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo-navbar.png" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="facebook" href="https://www.facebook.com/Descruzando-os-Bra%C3%A7os-879736775443678/?fref=ts">
+                <i class="fa fa-facebook"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/descruzandoosbracos/"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p style="font-size:9px;">&copy; 2014 Oxygen Theme.</p>
+          </div>
+          <div class="col-sm-6">
+            <p style="font-size:10px;" class="pull-right">Designed by <a href="http://www.themeum.com/">Themeum</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
-
 </html>
