@@ -145,7 +145,8 @@
             <h2>Como Ajudar</h2>
             <p class="text-justify">
               São várias formas de ajudar. Só não vale ficar de braços cruzados!
-              Você pode ser um <strong>associado</strong>, um <strong>voluntário</strong> ou um <strong>parceiro</strong>.
+              Você pode ser um <strong>associado</strong>, um <strong>voluntário</strong>,um <strong>parceiro</strong>
+              ou um <strong>doador</strong>.
             </p>
             <p class="text-justify">
               Para saber mais, basta clicar numa das opções abaixo.
@@ -159,12 +160,9 @@
                     <a style="display: block; width: 100%;" class="btndb btn btn-default pull-left" data-toggle="collapse"
                       data-target="#associado">Associado</a>
                     <div id="associado" class="collapse">
-                      <p class="sec2 text-justify">
-                      Você participa de visitas, eventos e atividades administrativas da
-                      associação. Você pode ser um associado doador ou um associado mensalista. Um associado
-                      doador faz doações pontuais ou para eventos. Um associado mensalista deve pagar a
-                      mensalidade da associação.
-                      </p>
+                      <p class="sec2 text-justify"> Participa de visitas, eventos e atividades administrativas do
+                      projeto. Você pode ser um associado mensalista ou um associado doador.
+                      Podendo optar entre fazer contribuições mensalmente ou esporadicamente.</p>
                     </div>
                     <br>
                     <br>
@@ -172,9 +170,9 @@
                       data-target="#voluntario">Voluntário</a>
                     <div id="voluntario" class="collapse">
                       <p class="sec2 text-justify">
-                      Você participa de visitas e eventos. Você pode ser um voluntário doador
-                      ou um voluntário mensalista. Um voluntário doador faz doações pontuais ou para eventos. Um
-                      voluntário mensalista deve pagar a mensalidade da associação.
+                      Participa de visitas e eventos. Além de contribuir com seu tempo,
+                      você pode também ser um voluntário doador ou voluntário mensalista.
+                      Podendo fazer contribuições mensalmente ou esporadicamente.
                       </p>
                     </div>
                     <br>
@@ -184,11 +182,20 @@
                       data-target="#parceiro">Parceiro</a>
                     <div id="parceiro" class="collapse">
                       <p class="sec2 text-justify">
-                      Você ou sua empresa contribuem com serviços profissionais, podendo ainda
-                      ser um parceiro doador ou um parceiro mensalista. Um parceiro doador, além de contribuir
-                      com serviços profissionais, faz doações pontuais ou para eventos. Um parceiro mensalista, além
-                      de contribuir com serviços profissionais, deve pagar a mensalidade da associação. Em
-                      contrapartida, os parceiros poderão ser divulgados nos canais de comunicação da associação. 
+                     Você ou sua empresa podem contribuir prestando algum serviço.
+                     Além de contribuir com seu serviço, você pode também ser um parceiro
+                     mensalista ou parceiro doador. Podendo fazer contribuições mensalmente ou esporadicamente. 
+                      </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <a style="display: block; width: 100%;" class="btn btndb btn-default pull-left" data-toggle="collapse"
+                      data-target="#doador">Doador</a>
+                    <div id="doador" class="collapse">
+                      <p class="sec2 text-justify">
+                      Você pode contribuir doando alimentos, itens de higiene pessoal,
+                      brinquedos, materiais escolares, roupas, calçados, utensílios domésticos ou dinheiro. 
                       </p>
                     </div>
           </div>
@@ -217,7 +224,7 @@
           <div class="col-sm-3">
             <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="folio-image">
-                <img class="img-responsive" src="images/visitas.png" alt="">
+                <img class="img-responsive" src="images/visitas2.png" alt="">
               </div>
               <div class="overlay">
                 <div class="overlay-content">
@@ -266,7 +273,7 @@
           <div class="col-sm-3">
             <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="folio-image">
-                <img class="img-responsive" src="images/oracao.png" alt="">
+                <img class="img-responsive" src="images/oracao2.png" alt="">
               </div>
               <div class="overlay">
                 <div class="overlay-content">
@@ -307,29 +314,35 @@
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
           <div class="row">
             <div class="col-sm-6">
-              <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/descruzandobracos@gmail.com">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Nome" required="required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Assunto" required="required">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escreva sua mensagem" required="required"></textarea>
-                </div>                        
-                <div class="form-group">
-                  <input type="submit" class="btn-submit" value="Enviar"></input>
-                </div>
-              </form>   
+							<form action="https://formspree.io/descruzandobracos@gmail.com"
+										method="POST">
+									<input type="text" name="name">
+									<input type="email" name="_replyto">
+									<input type="submit" value="Send">
+							</form>
+              <!--<form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/descruzandobracos@gmail.com">-->
+                <!--<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">-->
+                  <!--<div class="col-sm-6">-->
+                    <!--<div class="form-group">-->
+                      <!--<input type="text" name="name" class="form-control" placeholder="Nome" required="required">-->
+                    <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="col-sm-6">-->
+                    <!--<div class="form-group">-->
+                      <!--<input type="email" name="email" class="form-control" placeholder="Email" required="required">-->
+                    <!--</div>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                  <!--<input type="text" name="subject" class="form-control" placeholder="Assunto" required="required">-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                  <!--<textarea name="message" id="message" class="form-control" rows="4" placeholder="Escreva sua mensagem" required="required"></textarea>-->
+                <!--</div>                        -->
+                <!--<div class="form-group">-->
+                  <!--<input type="submit" class="btn-submit" value="Enviar"></input>-->
+                <!--</div>-->
+              <!--</form>   -->
             </div>
             <div class="col-sm-6">
               <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
