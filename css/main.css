@@ -36,7 +36,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .parallax,
@@ -327,6 +327,7 @@ section {
   /*background-image: url(../images/about-bg.jpg);*/
   background-image: url(../images/about.jpg);
   padding: 60px 0;
+  /*height: auto;*/
 }
 
 #about-us h2 {
@@ -997,6 +998,17 @@ span.reverse {
   .frontimage {
     background-image: url(../images/MobileFront.png);
   }
+  
+}
+
+@media screen and (max-width: 3580px) and (min-width:580px){
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
   
 }
 
